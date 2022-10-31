@@ -6,6 +6,15 @@
 <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
+<script>
+
+function exitPage()
+{
+  myWindow = window.open("exit.html");
+  myWindow.close();
+}
+
+</script>
 
 </head>
 
@@ -29,8 +38,8 @@
 <button class="button is-info" style="width: 35%; height: 25%; margin: 2%; padding: 1%; border-radius: 10px;">Rules</button><br>
 </a>
 
-<button class="button is-danger" style="width: 35%; height: 25%; margin: 2%; padding: 1%; border-radius: 10px;">Exit</button><br>
-
+<button class="button is-danger" onclick = "exitPage()" style="width: 35%; height: 25%; margin: 2%; padding: 1%; border-radius: 10px;">Exit</button>
+</a>
 </div>
 </div>
 </div>
